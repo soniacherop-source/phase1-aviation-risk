@@ -11,13 +11,13 @@ The company seeks to expand into aviation operations but lacks insight into the 
 
 Key Business Questions
 
-Which aircraft manufacturers and models are associated with lower fatal injury rates?
+-Which aircraft manufacturers and models are associated with lower fatal injury rates?
 
-Which phases of flight present the highest safety risks?
+-Which phases of flight present the highest safety risks?
 
-How have aviation accident trends changed over time?
+-How have aviation accident trends changed over time?
 
-The primary stakeholder for this analysis is the Head of the Aviation Division, who will use these insights to guide aircraft acquisition and operational planning.
+-The primary stakeholder for this analysis is the Head of the Aviation Division, who will use these insights to guide aircraft acquisition and operational planning.
 
 Data Understanding
 
@@ -25,42 +25,42 @@ The dataset is sourced from the National Transportation Safety Board (NTSB) and 
 
 Key Variables Used
 
-Aircraft make and model
+-Aircraft make and model
 
-Phase of flight
+-Phase of flight
 
-Purpose of flight
+-Purpose of flight
 
-Injury severity (fatal, serious, minor, uninjured)
+-Injury severity (fatal, serious, minor, uninjured)
 
-Event date (used to analyze trends over time)
+-Event date (used to analyze trends over time)
 
 Data Preparation and Analysis
 
 The data was cleaned and prepared using pandas in Python.
 Key preparation steps included:
 
-Selecting relevant columns related to aircraft, injuries, and operations
+-Selecting relevant columns related to aircraft, injuries, and operations
 
-Handling missing injury values by replacing them with zero
+-Handling missing injury values by replacing them with zero
 
-Removing records missing critical categorical information
+-Removing records missing critical categorical information
 
-Creating a Year variable from the event date for trend analysis
+-Creating a Year variable from the event date for trend analysis
 
-The analysis focuses on descriptive statistics and aggregations to assess aviation risk.
+-The analysis focuses on descriptive statistics and aggregations to assess aviation risk.
 
 Key Visualizations
 
 The following visualizations were created to answer the business questions:
 
-Average Fatal Injuries by Aircraft Manufacturer
+-Average Fatal Injuries by Aircraft Manufacturer
 Identifies aircraft manufacturers associated with lower fatal injury rates.
 
-Average Fatal Injuries by Phase of Flight
+-Average Fatal Injuries by Phase of Flight
 Highlights phases of flight that present the highest operational risk.
 
-Number of Aviation Accidents Over Time
+-Number of Aviation Accidents Over Time
 Shows long-term accident trends to assess changes in aviation safety.
 
 These same visualizations are included in the notebook, presentation, and Tableau dashboard for consistency.
@@ -75,17 +75,17 @@ An interactive Tableau dashboard was created to allow users to explore aviation 
 Conclusions and Recommendations
 Key Findings
 
-Certain aircraft manufacturers consistently show lower average fatal injury rates.
+-Certain aircraft manufacturers consistently show lower average fatal injury rates.
 
-Takeoff, approach, and landing phases present higher safety risks than cruise.
+-Takeoff, approach, and landing phases present higher safety risks than cruise.
 
-Aviation accidents have generally declined over time, reflecting improvements in safety standards.
+-Aviation accidents have generally declined over time, reflecting improvements in safety standards.
 
 Business Recommendations
 
-Prioritize acquiring aircraft from manufacturers with historically lower fatal injury rates.
+-Prioritize acquiring aircraft from manufacturers with historically lower fatal injury rates.
 
-Invest in pilot training and safety protocols focused on high-risk phases of flight.
+-Invest in pilot training and safety protocols focused on high-risk phases of flight.
 
 Use historical accident trends to guide long-term fleet and operational strategy.
 
@@ -107,10 +107,10 @@ aviation-risk-analysis/
 
 Tools Used
 
-Python (pandas, matplotlib, seaborn)
-Jupyter Notebook
-Tableau Public
-GitHub
+-Python (pandas, matplotlib, seaborn)
+-Jupyter Notebook
+-Tableau Public
+-GitHub
 
 Author
 
