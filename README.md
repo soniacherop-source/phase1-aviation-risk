@@ -1,7 +1,7 @@
 Aviation Risk Analysis
-Overview
+ Overview
 
-This project analyzes historical aviation accident data to identify aircraft types and operational factors associated with lower accident severity. The goal is to provide data-driven recommendations to support a company planning to enter the aviation industry by purchasing and operating aircraft for commercial and private use.
+This project analyzes historical aviation accident data to identify aircraft types and operational factors associated with lower accident severity. The goal is to provide data driven recommendations to support a company planning to enter the aviation industry by purchasing and operating aircraft for commercial and private use.
 
 The analysis focuses on identifying lower-risk aircraft manufacturers, high-risk phases of flight, and long-term accident trends to inform safer and more cost-effective business decisions.
 
@@ -108,11 +108,8 @@ aviation-risk-analysis/
 Tools Used
 
 Python (pandas, matplotlib, seaborn)
-
 Jupyter Notebook
-
 Tableau Public
-
 GitHub
 
 Author
