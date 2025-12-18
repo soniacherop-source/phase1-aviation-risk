@@ -1,5 +1,6 @@
 Aviation Risk Analysis
- Overview
+
+ Author : Sonia CHEROP
 
 This project analyzes historical aviation accident data to identify aircraft types and operational factors associated with lower accident severity. The goal is to provide data driven recommendations to support a company planning to enter the aviation industry by purchasing and operating aircraft for commercial and private use.
 
