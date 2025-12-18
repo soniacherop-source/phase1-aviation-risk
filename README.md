@@ -1,6 +1,8 @@
 Aviation Risk Analysis
 
  Author : Sonia CHEROP
+ 
+Project Overview
 
 This project analyzes historical aviation accident data to identify aircraft types and operational factors associated with lower accident severity. The goal is to provide data driven recommendations to support a company planning to enter the aviation industry by purchasing and operating aircraft for commercial and private use.
 
@@ -12,13 +14,11 @@ The company seeks to expand into aviation operations but lacks insight into the 
 
 Key Business Questions
 
--Which aircraft manufacturers and models are associated with lower fatal injury rates?
+1.Which aircraft manufacturers and models are associated with lower fatal injury rates?
 
--Which phases of flight present the highest safety risks?
+2.Which phases of flight present the highest safety risks?
 
--How have aviation accident trends changed over time?
-
--The primary stakeholder for this analysis is the Head of the Aviation Division, who will use these insights to guide aircraft acquisition and operational planning.
+3.How have aviation accident trends changed over time?
 
 Data Understanding
 
@@ -26,69 +26,56 @@ The dataset is sourced from the National Transportation Safety Board (NTSB) and 
 
 Key Variables Used
 
--Aircraft make and model
+.Aircraft make and model
 
--Phase of flight
+.Phase of flight
 
--Purpose of flight
+.Purpose of flight
 
--Injury severity (fatal, serious, minor, uninjured)
+.Injury severity (fatal, serious, minor, uninjured)
 
--Event date (used to analyze trends over time)
+.Event date (used to analyze trends over time)
 
-Data Preparation and Analysis
+Data Preparation 
 
 The data was cleaned and prepared using pandas in Python.
 Key preparation steps included:
 
--Selecting relevant columns related to aircraft, injuries, and operations
+.Removing or handling missing values
 
--Handling missing injury values by replacing them with zero
+.Selecting relevant columns for analysis
 
--Removing records missing critical categorical information
+.Renaming columns for clarity
 
--Creating a Year variable from the event date for trend analysis
+.Creating a cleaned dataset for analysis and visualization
 
--The analysis focuses on descriptive statistics and aggregations to assess aviation risk.
+Data Analysis and Insights
 
-Key Visualizations
+Key findings from the analysis:
 
-The following visualizations were created to answer the business questions:
+Some aircraft manufacturers consistently show lower average fatal injuries
 
--Average Fatal Injuries by Aircraft Manufacturer
-Identifies aircraft manufacturers associated with lower fatal injury rates.
+Takeoff and landing phases are associated with higher accident severity
 
--Average Fatal Injuries by Phase of Flight
-Highlights phases of flight that present the highest operational risk.
+Accident trends vary across different time periods
 
--Number of Aviation Accidents Over Time
-Shows long-term accident trends to assess changes in aviation safety.
-
-These same visualizations are included in the notebook, presentation, and Tableau dashboard for consistency.
+These insights help identify lower-risk aircraft options and operational risk factors.
 
 Interactive Tableau Dashboard
 
-An interactive Tableau dashboard was created to allow users to explore aviation risk across different dimensions, including year and purpose of flight.
+An interactive Tableau dashboard was created to visualize:
+
+.Aircraft manufacturers with the lowest fatal injury risk
+
+.Accident trends over time
+
+.Risk distribution across phases of flight
 
 🔗 Tableau Dashboard Link:
-👉 https://public.tableau.com/views/AviationRiskAnalysis_17658707461710/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+https://public.tableau.com/views/AviationRiskAnalysisDashboard_17660454152630/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
-Conclusions and Recommendations
-Key Findings
-
--Certain aircraft manufacturers consistently show lower average fatal injury rates.
-
--Takeoff, approach, and landing phases present higher safety risks than cruise.
-
--Aviation accidents have generally declined over time, reflecting improvements in safety standards.
-
-Business Recommendations
-
--Prioritize acquiring aircraft from manufacturers with historically lower fatal injury rates.
-
--Invest in pilot training and safety protocols focused on high-risk phases of flight.
-
-Use historical accident trends to guide long-term fleet and operational strategy.
+Conclusions
+This project demonstrates how data analysis and visualization can support safer aircraft acquisition and operational decisions. The insights provide a strong foundation for risk-aware entry into the aviation industry.
 
 Repository Structure
 aviation-risk-analysis/
@@ -106,13 +93,23 @@ aviation-risk-analysis/
 ├── .gitignore
 └── README.md
 
+How to run the project
+
+1.Clone the repository
+
+2.Install required Python libraries (pandas, numpy, matplotlib, seaborn)
+
+3.Open the Jupyter Notebook and run cells sequentially
+
 Tools Used
 
 -Python (pandas, matplotlib, seaborn)
+
 -Jupyter Notebook
+
 -Tableau Public
+
 -GitHub
 
-Author
 
 Sonia Cherop
